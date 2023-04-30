@@ -1,0 +1,11 @@
+function addToCart(productId) {
+  var cartItems = localStorage.getItem('cartItems');
+  if (!cartItems) {
+    cartItems = [];
+  } else {
+    cartItems = JSON.parse(cartItems);
+  }
+  cartItems.push(productId);
+  localStorage.setItem('cartItems', JSON.stringify(cartItems));
+  alert('Product added to cart!');
+}

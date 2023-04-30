@@ -1,0 +1,9 @@
+app.directive('productList', function() {
+  return {
+    restrict: 'E',
+    scope: {
+      products: '='
+    },
+    templateUrl: 'product-list.html'
+  };
+});

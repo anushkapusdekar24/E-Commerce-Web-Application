@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Name</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Product Name</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<img src="product-image.jpg" alt="Product Image">
+		<h2>Description</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat euismod ante vel mattis. Donec sed faucibus erat. Pellentesque aliquet, lectus quis ullamcorper tempus, odio magna consectetur urna, sit amet tristique turpis justo eu nibh. </p>
+		<h2>Price</h2>
+		<p>$99.99</p>
+		<button>Add to Cart</button>
+	</main>
+</body>
+</html>
